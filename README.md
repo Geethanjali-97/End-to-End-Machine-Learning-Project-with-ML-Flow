@@ -81,3 +81,19 @@ export MLFLOW_TRACKING_PASSWORD=61e952da01e575a8996ad7f48ceb6fb4c36c2f26
 
 
 
+AZURE-CICD-Deployment-with-Github-Actions
+Save pass:
+s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
+
+Run from terminal:
+docker build -t winequality.azurecr.io/winequality:latest .
+
+docker login winequality.azurecr.io
+
+docker push winequality.azurecr.io/winequality:latest
+
+Deployment Steps:
+Build the Docker image of the Source Code
+Push the Docker image to Container Registry
+Launch the Web App Server in Azure
+Pull the Docker image from the container registry to Web App server and run

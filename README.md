@@ -81,9 +81,9 @@ export MLFLOW_TRACKING_PASSWORD=61e952da01e575a8996ad7f48ceb6fb4c36c2f26
 
 
 
-AZURE-CICD-Deployment-with-Github-Actions
+AZURE-CI/CD-Deployment-with-Github-Actions using container registry and  web app
 Save pass:
-s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
+oW8DIkvLt2RcHzV29FRhk2vTZCTekiwQV+5CuXR0SC+ACRCuhG4A
 
 Run from terminal:
 docker build -t winequality.azurecr.io/winequality:latest .
